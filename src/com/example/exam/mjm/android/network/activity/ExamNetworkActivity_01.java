@@ -29,7 +29,7 @@ public class ExamNetworkActivity_01 extends Activity implements OnClickListener 
         setContentView(R.layout.activity_main);
        findViewById(R.id.button1).setOnClickListener(this);
     }
-
+//
  public void onClick(View v) {
   TextView tv = (TextView)findViewById(R.id.textView1);
   try {
