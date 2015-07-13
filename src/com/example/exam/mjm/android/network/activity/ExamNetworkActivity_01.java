@@ -41,7 +41,7 @@ public class ExamNetworkActivity_01 extends Activity implements OnClickListener 
         //dbf.setIgnoringElementContentWhitespace(true);//화이트스패이스 생략
         DocumentBuilder builder = dbf.newDocumentBuilder();
         Document parse = builder.parse(bai);//DOM 파서
-        //태그 검색
+        //태그 검색fdfdfdf
         NodeList datas = parse.getElementsByTagName("data");
         //String result = "data태그 수 =" + datas.getLength()+"\n";
         String result = "";
